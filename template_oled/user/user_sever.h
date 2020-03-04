@@ -26,7 +26,6 @@ enum PARA_ENUM{
 	ACTIVE_SULT,
 	PROBLEM,
 	RELEASE,
-	HIGHT_LIE,
 };
 
 
@@ -34,7 +33,6 @@ typedef struct
 {
 	struct HIGHT
 	{
-		uint16_t lie_hight;
 		uint16_t now_hight;
 		uint16_t top_hight;
 		uint16_t down_hight;
@@ -61,7 +59,6 @@ typedef struct
 	uint8_t Set_Result;
 	uint8_t FirstPower;
 	uint8_t Relaseend;
-	bool lie;
 }Para_Str_typedef;
 extern Para_Str_typedef Para_str;
 uint32_t Para_read(enum PARA_ENUM dat);

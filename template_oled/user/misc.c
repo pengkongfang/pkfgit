@@ -220,7 +220,6 @@ void RunisSet_Frame(int data)
 				Uart_RunToSet(RunTo_Slect);
 				GRAM_ShowLattice(10,20,32,32,(const uint8_t *)Page_RUN_GO ,1);
 				Lcd_Write_Time(READ_BK,1,3);//5s
-				Para_write(HIGHT_LIE,temph,0);
         break;
 		case WM_TIMEOUT:
 				//Beep_SetNum(1,2,0);
@@ -283,7 +282,6 @@ void Run_Frame(int data)
 		switch (data)
     {
     case WM_CREATE:
-				Para_write(HIGHT_LIE,0,0);
 				Max_Hight=(Para_str.mode_str.unit_mode)?(1800*0.394):(1800);
 				Min_Hight=(Para_str.mode_str.unit_mode)?(200*0.394):(200);
 				k=(Max_Hight-Min_Hight)/(StartY-EndY);

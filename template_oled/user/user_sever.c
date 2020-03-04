@@ -137,8 +137,6 @@ void Para_write(enum PARA_ENUM dat ,uint32_t value,uint8_t istrue)
 				make_uartSend_Data(Sevr,4);
 			}
 			break;
-		case HIGHT_LIE: Para_str.lie=(value)?true:false;
-										Para_str.hight_str.lie_hight=value;
 		case TIME_SETREMINDER :if(istrue)Para_str.time_str.set_Remindtime=value;else { Uart_1.uart_want_get=UART_SET;Sevd[1]=value;make_uartSend_Data(Sevd,10);}break;
 		case MODE_REMINDER: if(istrue)Para_str.mode_str.Remind_mode=value;else {Uart_1.uart_want_get=UART_SET;Sevd[2]=value;make_uartSend_Data(Sevd,10);}break;
 		case MODE_WILLBLOCK:if(istrue) Para_str.mode_str.WillBlock_mode=value;else {Uart_1.uart_want_get=UART_SET;Sevd[3]|=value;make_uartSend_Data(Sevd,10);}break;		
@@ -153,7 +151,7 @@ uint32_t Para_read(enum PARA_ENUM dat)
 {
 	switch((uint8_t)dat)
 	{
-		case HIGHT_NOW: return (Para_str.mode_str.unit_mode)?((Para_str.lie)?Para_str.hight_str.lie_hight*0.394:Para_str.hight_str.now_hight*0.394):((Para_str.lie)?Para_str.hight_str.lie_hight:Para_str.hight_str.now_hight);
+		case HIGHT_NOW: return (Para_str.mode_str.unit_mode)?(Para_str.hight_str.now_hight*0.394):(Para_str.hight_str.now_hight);
 		case HIGHT_TOP : return (Para_str.mode_str.unit_mode)?(Para_str.hight_str.top_hight*0.394):(Para_str.hight_str.top_hight);
 		case HIGHT_DWON : return (Para_str.mode_str.unit_mode)?(Para_str.hight_str.down_hight*0.394):(Para_str.hight_str.down_hight);
 		case HIGHT_SET1 : return (Para_str.mode_str.unit_mode)?(Para_str.hight_str.set_hight[0]*0.394):(Para_str.hight_str.set_hight[0]);

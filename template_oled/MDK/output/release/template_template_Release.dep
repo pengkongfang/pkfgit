@@ -34,8 +34,8 @@ I (..\..\..\mcu\common\system_hc32l13x.h)(0x5D131C96)
 I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
 I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
 I (..\source\ddl_device.h)(0x5D18B90F)
-F (..\user\user_sever.c)(0x5E5DF37E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I..\..\..\mcu\common -I..\source -I..\..\..\driver\inc -I..\user-I "F:\Pro\desktop_key\HC32L130_SDK\qudong\hc32l13x_ddl_Rev1.8.0 Lite\hc32l13x_ddl\example\template\MDK\RTE"-I D:\KEIL5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\KEIL5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0P-o .\output\release\user_sever.o --omf_browse .\output\release\user_sever.crf --depend .\output\release\user_sever.d)
-I (..\user\user_sever.h)(0x5E5DF2ED)
+F (..\user\user_sever.c)(0x5E5F3B4C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I..\..\..\mcu\common -I..\source -I..\..\..\driver\inc -I..\user-I "F:\Pro\desktop_key\HC32L130_SDK\qudong\hc32l13x_ddl_Rev1.8.0 Lite\hc32l13x_ddl\example\template\MDK\RTE"-I D:\KEIL5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\KEIL5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0P-o .\output\release\user_sever.o --omf_browse .\output\release\user_sever.crf --depend .\output\release\user_sever.d)
+I (..\user\user_sever.h)(0x5E5F3B14)
 I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
 I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
 I (D:\KEIL5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -89,7 +89,7 @@ I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
 I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
 I (..\source\ddl_device.h)(0x5D18B90F)
 I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
-I (..\user\user_sever.h)(0x5E5DF2ED)
+I (..\user\user_sever.h)(0x5E5F3B14)
 I (D:\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
 I (..\..\..\driver\inc\flash.h)(0x5D142E9C)
 I (..\..\..\driver\inc\wdt.h)(0x5D12DF57)
@@ -386,7 +386,7 @@ I (..\..\..\driver\inc\bt.h)(0x5D11DA4A)
 I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
 I (..\..\..\driver\inc\flash.h)(0x5D142E9C)
 I (..\..\..\driver\inc\adc.h)(0x5D11C715)
-I (..\user\user_sever.h)(0x5E5DF2ED)
+I (..\user\user_sever.h)(0x5E5F3B14)
 F (..\user\CRC16.c)(0x5AF55149)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I..\..\..\mcu\common -I..\source -I..\..\..\driver\inc -I..\user-I "F:\Pro\desktop_key\HC32L130_SDK\qudong\hc32l13x_ddl_Rev1.8.0 Lite\hc32l13x_ddl\example\template\MDK\RTE"-I D:\KEIL5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\KEIL5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0P-o .\output\release\crc16.o --omf_browse .\output\release\crc16.crf --depend .\output\release\crc16.d)
 I (..\user\CRC16.h)(0x5DF1E8B8)
 F (..\user\dui.c)(0x5E203205)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I..\..\..\mcu\common -I..\source -I..\..\..\driver\inc -I..\user-I "F:\Pro\desktop_key\HC32L130_SDK\qudong\hc32l13x_ddl_Rev1.8.0 Lite\hc32l13x_ddl\example\template\MDK\RTE"-I D:\KEIL5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\KEIL5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0P-o .\output\release\dui.o --omf_browse .\output\release\dui.crf --depend .\output\release\dui.d)
@@ -479,7 +479,7 @@ I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
 I (..\user\dui.h)(0x5E1D6986)
 I (D:\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
 I (..\user\crc16.h)(0x5DF1E8B8)
-I (..\user\user_Sever.h)(0x5E5DF2ED)
+I (..\user\user_Sever.h)(0x5E5F3B14)
 I (..\user\lcd_drive.h)(0x5E1D7DBB)
 I (..\user\lcd12864.h)(0x5E1FCB4C)
 I (..\..\..\driver\inc\spi.h)(0x5D12C53E)
@@ -512,7 +512,7 @@ I (..\user\dui.h)(0x5E1D6986)
 I (..\user\uart_sever.h)(0x5E1FC1F5)
 I (D:\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
 I (..\user\crc16.h)(0x5DF1E8B8)
-F (..\user\misc.c)(0x5E5DF465)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I..\..\..\mcu\common -I..\source -I..\..\..\driver\inc -I..\user-I "F:\Pro\desktop_key\HC32L130_SDK\qudong\hc32l13x_ddl_Rev1.8.0 Lite\hc32l13x_ddl\example\template\MDK\RTE"-I D:\KEIL5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\KEIL5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0P-o .\output\release\misc.o --omf_browse .\output\release\misc.crf --depend .\output\release\misc.d)
+F (..\user\misc.c)(0x5E5F3B4C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I..\..\..\mcu\common -I..\source -I..\..\..\driver\inc -I..\user-I "F:\Pro\desktop_key\HC32L130_SDK\qudong\hc32l13x_ddl_Rev1.8.0 Lite\hc32l13x_ddl\example\template\MDK\RTE"-I D:\KEIL5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\KEIL5\ARM\PACK\ARM\CMSIS\4.2.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0P-o .\output\release\misc.o --omf_browse .\output\release\misc.crf --depend .\output\release\misc.d)
 I (..\user\misc.h)(0x5E4396BC)
 I (..\..\..\driver\inc\ddl.h)(0x5D131F39)
 I (..\..\..\mcu\common\base_types.h)(0x5D11C241)
@@ -530,7 +530,7 @@ I (..\..\..\mcu\common\system_hc32l13x.h)(0x5D131C96)
 I (..\..\..\driver\inc\sysctrl.h)(0x5D130324)
 I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
 I (..\source\ddl_device.h)(0x5D18B90F)
-I (..\user\user_sever.h)(0x5E5DF2ED)
+I (..\user\user_sever.h)(0x5E5F3B14)
 I (D:\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
 I (..\user\oledpage.h)(0x5E44E3DE)
 I (..\user\lcd_drive.h)(0x5E1D7DBB)
@@ -567,7 +567,7 @@ I (..\..\..\mcu\common\interrupts_hc32l13x.h)(0x5D131A91)
 I (..\source\ddl_device.h)(0x5D18B90F)
 I (..\user\lcd_drive.h)(0x5E1D7DBB)
 I (D:\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\user\user_sever.h)(0x5E5DF2ED)
+I (..\user\user_sever.h)(0x5E5F3B14)
 I (..\user\user_flash.h)(0x5E007128)
 I (..\user\misc.h)(0x5E4396BC)
 I (..\user\uart_sever.h)(0x5E1FC1F5)
@@ -601,7 +601,7 @@ I (..\source\ddl_device.h)(0x5D18B90F)
 I (..\..\..\driver\inc\spi.h)(0x5D12C53E)
 I (..\..\..\driver\inc\gpio.h)(0x5D11EFDB)
 I (D:\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (..\user\oledfont.h)(0x5E439DFC)
+I (..\user\oledfont.h)(0x5E5F09E2)
 I (..\user\beep.h)(0x5E1C16CA)
 I (..\..\..\driver\inc\adt.h)(0x5D11C7E3)
 I (..\..\..\driver\inc\lpm.h)(0x5D11FE42)
